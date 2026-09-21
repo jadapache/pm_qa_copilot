@@ -9,7 +9,7 @@ type JiraProject = {
 }
 
 type JiraProjectsPanelProps = {
-  siteUrl?: string
+  siteUrl?: string | null
   onSaved: () => void
   onError: (message: string) => void
 }
